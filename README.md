@@ -1,6 +1,6 @@
 # Summarize AI – Frontend
 
-A modern **Svelte** frontend for **Summarize AI**, allowing users to upload or record audio, generate accurate transcriptions, and produce concise summaries through a clean, intuitive interface.
+A modern **Svelte** frontend for **Summarize AI**, enabling users to upload or record audio, review transcriptions, and generate concise summaries using Large Language Models through a clean, intuitive interface.
 
 ---
 
@@ -15,7 +15,7 @@ A modern **Svelte** frontend for **Summarize AI**, allowing users to upload or r
 - 🎙️ Upload audio files or record live audio
 - 📝 Automatic speech-to-text transcription
 - ✂️ Review and edit transcriptions
-- 🧠 AI-powered summarization
+- 🧠 AI-powered summarization using Hugging Face LLMs
 - 📋 Copy summaries and transcriptions
 - 📥 Download results
 - 🔊 Audio playback
@@ -27,8 +27,7 @@ A modern **Svelte** frontend for **Summarize AI**, allowing users to upload or r
 
 - **Frontend:** Svelte (Rollup)
 - **Backend:** Flask (separate service)
-- **Transcription:** Wit.ai
-- **Summarization:** Google Gemini API
+- **AI / NLP:** Hugging Face Large Language Models
 - **Hosting:** Netlify
 
 ---
