@@ -1,32 +1,46 @@
-# Summarize AI Frontend
+# Summarize AI – Frontend
 
-A beautiful Svelte frontend for the Summarize AI application that allows users to upload audio files, get transcriptions, and generate summaries.
+A modern **Svelte** frontend for **Summarize AI**, allowing users to upload or record audio, generate accurate transcriptions, and produce concise summaries through a clean, intuitive interface.
+
+---
+
+## 🌐 Live Demo
+
+👉 https://summarizationai.netlify.app/
+
+---
 
 ## ✨ Features
 
-- Upload audio files / Live recording for transcription
-- Review and edit transcriptions
-- Generate summaries from transcriptions
-- Copy transcriptions and summaries to clipboard
-- Download transcriptions and summaries
-- Play summary
-- Responsive and clean UI
+- 🎙️ Upload audio files or record live audio
+- 📝 Automatic speech-to-text transcription
+- ✂️ Review and edit transcriptions
+- 🧠 AI-powered summarization
+- 📋 Copy summaries and transcriptions
+- 📥 Download results
+- 🔊 Audio playback
+- 📱 Responsive, user-friendly UI
 
 ---
 
-## 🚀 Getting Started
+## 🧩 Tech Stack
 
-### 📦 Prerequisites
-
-- Node.js (v14 or later)
-- npm or yarn
+- **Frontend:** Svelte (Rollup)
+- **Backend:** Flask (separate service)
+- **Transcription:** Wit.ai
+- **Summarization:** Google Gemini API
+- **Hosting:** Netlify
 
 ---
 
-### 📁 Installation
+## 🔐 Security & Architecture
 
-1. **Clone the repository**
+- No API keys are exposed in the frontend
+- All AI and transcription logic runs on the backend
+- Frontend communicates with the backend via secure API endpoints
 
-   ```bash
-   git clone https://github.com/your-username/summarize-ai-frontend.git
-   cd summarize-ai-frontend
+---
+
+## 📌 Notes
+
+This project is built for learning, experimentation, and showcasing full-stack AI application design.
